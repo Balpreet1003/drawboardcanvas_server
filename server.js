@@ -5,7 +5,7 @@ const { DrawingState } = require("./drawing-state");
 const { RoomRegistry } = require("./rooms");
 
 const PORT = process.env.PORT || 3000;
-const allowedOrigins = parseAllowedOrigins("drawboardcanvasclient.vercel.app");
+const allowedOrigins = parseAllowedOrigins("draw-board-canvas.vercel.app");
 const GLOBAL_ROOM = "global";
 const DEFAULT_CANVAS_BACKGROUND = "#ffffff";
 
